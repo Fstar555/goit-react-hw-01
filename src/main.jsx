@@ -7,7 +7,7 @@ fucntion App() {
     <div>
       <h1>Page title</h1>
     </div>
-  )
+  );
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(
