@@ -1,9 +1,9 @@
 import Profile from "../Profile/Profile";
-import userData from "/src/userData.json";
+import userData from "../../userData.json";
 import FriendsList from "../FriendList/FriendList";
-import friends from "src/friends.json";
+import friends from "../../friends.json";
 import TransactionHistory from "../TransactionHistory/TransactionHistory";
-import transactions from "src/transactions.json";
+import transactions from "../../transaction.json";
 import clsx from "clsx";
 import css from "./App.module.css";
 
