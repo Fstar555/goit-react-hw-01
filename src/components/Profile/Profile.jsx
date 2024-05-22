@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import css from "./Profile.module.css";
 
-export default function Profile({
+export const Profile = ({
   userData: {
     name,
     tag,
@@ -9,7 +9,7 @@ export default function Profile({
     avatar,
     stats: { followers, views, likes },
   },
-}) {
+}) => {
   return (
     <div className={clsx(css.container)}>
       <div className={clsx(css.info)}>
@@ -35,4 +35,4 @@ export default function Profile({
       </ul>
     </div>
   );
-}
+};
